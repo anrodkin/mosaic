@@ -5,6 +5,7 @@
 @import '../visual/panel-theme';
 @import '../../link/link-theme';
 @import '../../button/button-theme';
+@import '../../card/card-theme';
 @import '../../icon/icon-theme';
 @import '../../list/list-theme';
 @import '../../progress-bar/progress-bar-theme';
@@ -20,6 +21,7 @@
 @import '../option/option-theme';
 @import '../../tag/tag-theme';
 @import '../../tooltip/tooltip-theme';
+@import '../../toggle/toggle-theme';
 @import '../../splitter/splitter-theme';
 
 
@@ -31,6 +33,7 @@
     @include mc-alert-theme($theme);
     @include mc-badge-theme($theme);
     @include mc-button-theme($theme);
+    @include mc-card-theme($theme);
     @include mc-icon-theme($theme);
     @include mc-list-theme($theme);
     @include mc-panel-theme($theme);
@@ -47,5 +50,6 @@
     @include mc-option-theme($theme);
     @include mc-tag-theme($theme);
     @include mc-tooltip-theme($theme);
+    @include mc-toggle-theme($theme);
     @include mc-splitter-theme($theme);
 }
